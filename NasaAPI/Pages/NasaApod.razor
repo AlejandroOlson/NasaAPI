@@ -12,8 +12,8 @@
 <br>
 <NasaImageSection imgUrl="@nasaResponse.url" hdUrl="@nasaResponse.hdurl" copyright="@nasaResponse.copyright"/>
 
-@* <input placeholder="Add task" @bind="newTodo"/>
-<button @onclick="Add">Add</button> *@
+<input placeholder="Type in a date (YYYY-MM-DD)" @bind="newDate"/>
+<button @onclick="See">See</button>
 
 @code {
     private NasaResponse? nasaResponse = null;
@@ -22,5 +22,10 @@
     }
 
     // Date => YYYY-MM-DD add new function
-
+    [Parameter]
+    public string? newDate { get; set; }
+    protected async Task See() {
+        nasaResponse = await NasaClient.GetNasa(newDate);
+    }
+    
 }

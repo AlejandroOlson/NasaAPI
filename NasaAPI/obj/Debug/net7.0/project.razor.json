@@ -525,7 +525,7 @@
         }
       },
       {
-        "HashCode": 149530873,
+        "HashCode": -1491071424,
         "Kind": "Components.Component",
         "Name": "NasaAPI.Pages.NasaApod",
         "AssemblyName": "NasaAPI",
@@ -535,13 +535,23 @@
             "TagName": "NasaApod"
           }
         ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "newDate",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "newDate"
+            }
+          }
+        ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "NasaAPI.Pages.NasaApod"
         }
       },
       {
-        "HashCode": -1401481520,
+        "HashCode": -1179903182,
         "Kind": "Components.Component",
         "Name": "NasaAPI.Pages.NasaApod",
         "AssemblyName": "NasaAPI",
@@ -549,6 +559,16 @@
         "TagMatchingRules": [
           {
             "TagName": "NasaAPI.Pages.NasaApod"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "newDate",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "newDate"
+            }
           }
         ],
         "Metadata": {
