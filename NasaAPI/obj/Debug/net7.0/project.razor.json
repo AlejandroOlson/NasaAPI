@@ -107,6 +107,39 @@
         }
       },
       {
+        "HashCode": 1637014246,
+        "Kind": "Components.Component",
+        "Name": "NasaAPI.Pages.ToDo",
+        "AssemblyName": "NasaAPI",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ToDo"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "NasaAPI.Pages.ToDo"
+        }
+      },
+      {
+        "HashCode": -1325788348,
+        "Kind": "Components.Component",
+        "Name": "NasaAPI.Pages.ToDo",
+        "AssemblyName": "NasaAPI",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NasaAPI.Pages.ToDo"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "NasaAPI.Pages.ToDo",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -1205620102,
         "Kind": "Components.Component",
         "Name": "NasaAPI.Shared.SurveyPrompt",
@@ -156,39 +189,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "NasaAPI.Shared.SurveyPrompt",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1643236851,
-        "Kind": "Components.Component",
-        "Name": "NasaAPI.Shared.NavMenu",
-        "AssemblyName": "NasaAPI",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "NasaAPI.Shared.NavMenu"
-        }
-      },
-      {
-        "HashCode": 1514278765,
-        "Kind": "Components.Component",
-        "Name": "NasaAPI.Shared.NavMenu",
-        "AssemblyName": "NasaAPI",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NasaAPI.Shared.NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "NasaAPI.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -285,6 +285,39 @@
           "Runtime.Name": "Components.None",
           "Common.TypeName": "NasaAPI.Shared.MainLayout.Body",
           "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1643236851,
+        "Kind": "Components.Component",
+        "Name": "NasaAPI.Shared.NavMenu",
+        "AssemblyName": "NasaAPI",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "NasaAPI.Shared.NavMenu"
+        }
+      },
+      {
+        "HashCode": 1514278765,
+        "Kind": "Components.Component",
+        "Name": "NasaAPI.Shared.NavMenu",
+        "AssemblyName": "NasaAPI",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NasaAPI.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "NasaAPI.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -13918,6 +13951,11 @@
     {
       "FilePath": "/workspace/NasaAPI/NasaAPI/Shared/MainLayout.razor",
       "TargetPath": "Shared\\MainLayout.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/workspace/NasaAPI/NasaAPI/Pages/ToDo.razor",
+      "TargetPath": "Pages\\ToDo.razor",
       "FileKind": "component"
     },
     {
