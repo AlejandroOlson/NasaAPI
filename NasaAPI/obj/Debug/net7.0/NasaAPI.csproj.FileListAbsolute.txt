@@ -826,3 +826,7 @@
 /workspace/NasaAPI/NasaAPI/obj/Debug/net7.0/refint/NasaAPI.dll
 /workspace/NasaAPI/NasaAPI/obj/Debug/net7.0/NasaAPI.pdb
 /workspace/NasaAPI/NasaAPI/obj/Debug/net7.0/ref/NasaAPI.dll
+/workspace/NasaAPI/NasaAPI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.Extensions.Http.dll
+/workspace/NasaAPI/NasaAPI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.Extensions.Http.dll.gz
+/workspace/NasaAPI/NasaAPI/bin/Debug/net7.0/Microsoft.Extensions.Http.dll
+/workspace/NasaAPI/NasaAPI/obj/Debug/net7.0/build-gz/xV7dP+w3.gz

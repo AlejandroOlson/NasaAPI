@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Q4NXU7ctiUW1INvEbEan+XX9KRJWJcQEAmr//BPHiotzfp7hSPDxc2yPfnbQF3DjksKDe3zbG6qCHaM5VgBNVg==",
+  "dgSpecHash": "AW/4dfzt7p8CclfnQz+5UAoJiLQCEDli9uPWZ0E/wDyqJbyorLROb+Z1hTiZfpIv04dbX9edhyARohwsIleFHg==",
   "success": true,
   "projectFilePath": "/workspace/NasaAPI/NasaAPI/NasaAPI.csproj",
   "expectedPackageFiles": [
@@ -22,6 +22,7 @@
     "/home/gitpod/.nuget/packages/microsoft.extensions.fileproviders.abstractions/7.0.0/microsoft.extensions.fileproviders.abstractions.7.0.0.nupkg.sha512",
     "/home/gitpod/.nuget/packages/microsoft.extensions.fileproviders.physical/7.0.0/microsoft.extensions.fileproviders.physical.7.0.0.nupkg.sha512",
     "/home/gitpod/.nuget/packages/microsoft.extensions.filesystemglobbing/7.0.0/microsoft.extensions.filesystemglobbing.7.0.0.nupkg.sha512",
+    "/home/gitpod/.nuget/packages/microsoft.extensions.http/7.0.0/microsoft.extensions.http.7.0.0.nupkg.sha512",
     "/home/gitpod/.nuget/packages/microsoft.extensions.logging/7.0.0/microsoft.extensions.logging.7.0.0.nupkg.sha512",
     "/home/gitpod/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.0/microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "/home/gitpod/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",
