@@ -137,39 +137,6 @@
         }
       },
       {
-        "HashCode": 1643236851,
-        "Kind": "Components.Component",
-        "Name": "NasaAPI.Shared.NavMenu",
-        "AssemblyName": "NasaAPI",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "NasaAPI.Shared.NavMenu"
-        }
-      },
-      {
-        "HashCode": 1514278765,
-        "Kind": "Components.Component",
-        "Name": "NasaAPI.Shared.NavMenu",
-        "AssemblyName": "NasaAPI",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NasaAPI.Shared.NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "NasaAPI.Shared.NavMenu",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -1205620102,
         "Kind": "Components.Component",
         "Name": "NasaAPI.Shared.SurveyPrompt",
@@ -219,6 +186,209 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "NasaAPI.Shared.SurveyPrompt",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1643236851,
+        "Kind": "Components.Component",
+        "Name": "NasaAPI.Shared.NavMenu",
+        "AssemblyName": "NasaAPI",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "NasaAPI.Shared.NavMenu"
+        }
+      },
+      {
+        "HashCode": 1514278765,
+        "Kind": "Components.Component",
+        "Name": "NasaAPI.Shared.NavMenu",
+        "AssemblyName": "NasaAPI",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NasaAPI.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "NasaAPI.Shared.NavMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1068058425,
+        "Kind": "Components.Component",
+        "Name": "NasaAPI.Shared.Components.Header",
+        "AssemblyName": "NasaAPI",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Header"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "title"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "subTitle",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "subTitle"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "description",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "description"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "NasaAPI.Shared.Components.Header"
+        }
+      },
+      {
+        "HashCode": -2071202268,
+        "Kind": "Components.Component",
+        "Name": "NasaAPI.Shared.Components.Header",
+        "AssemblyName": "NasaAPI",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NasaAPI.Shared.Components.Header"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "title"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "subTitle",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "subTitle"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "description",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "description"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "NasaAPI.Shared.Components.Header",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -554456770,
+        "Kind": "Components.Component",
+        "Name": "NasaAPI.Shared.Components.NasaImageSection",
+        "AssemblyName": "NasaAPI",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NasaImageSection"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "imgUrl",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "imgUrl"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "hdUrl",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "hdUrl"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "copyright",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "copyright"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "NasaAPI.Shared.Components.NasaImageSection"
+        }
+      },
+      {
+        "HashCode": 1197720930,
+        "Kind": "Components.Component",
+        "Name": "NasaAPI.Shared.Components.NasaImageSection",
+        "AssemblyName": "NasaAPI",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NasaAPI.Shared.Components.NasaImageSection"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "imgUrl",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "imgUrl"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "hdUrl",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "hdUrl"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "copyright",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "copyright"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "NasaAPI.Shared.Components.NasaImageSection",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -351,6 +521,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "NasaAPI.Pages.ToDo",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 149530873,
+        "Kind": "Components.Component",
+        "Name": "NasaAPI.Pages.NasaApod",
+        "AssemblyName": "NasaAPI",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NasaApod"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "NasaAPI.Pages.NasaApod"
+        }
+      },
+      {
+        "HashCode": -1401481520,
+        "Kind": "Components.Component",
+        "Name": "NasaAPI.Pages.NasaApod",
+        "AssemblyName": "NasaAPI",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NasaAPI.Pages.NasaApod"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "NasaAPI.Pages.NasaApod",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -13934,6 +14137,16 @@
       "FileKind": "component"
     },
     {
+      "FilePath": "/workspace/NasaAPI/NasaAPI/Pages/NasaApod.razor",
+      "TargetPath": "Pages\\NasaApod.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/workspace/NasaAPI/NasaAPI/Shared/Components/NasaImageSection.razor",
+      "TargetPath": "Shared\\Components\\NasaImageSection.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "/workspace/NasaAPI/NasaAPI/App.razor",
       "TargetPath": "App.razor",
       "FileKind": "component"
@@ -13961,6 +14174,11 @@
     {
       "FilePath": "/workspace/NasaAPI/NasaAPI/Shared/SurveyPrompt.razor",
       "TargetPath": "Shared\\SurveyPrompt.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/workspace/NasaAPI/NasaAPI/Shared/Components/Header.razor",
+      "TargetPath": "Shared\\Components\\Header.razor",
       "FileKind": "component"
     },
     {

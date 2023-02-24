@@ -9,8 +9,15 @@ public class NasaClient {
         _client = client;
     }
 
-    public async Task<NasaResponse> GetNasa() {
-        return await _client.GetFromJsonAsync<NasaResponse>("https://api.nasa.gov/planetary/apod?api_key=QJCYU3kBLB3hKa6nP0C7sfPRCnPnVDPCZz96PTZH");
+    public async Task<NasaResponse> GetNasa(string date) {
+        //https://api.nasa.gov/planetary/apod?api_key=QJCYU3kBLB3hKa6nP0C7sfPRCnPnVDPCZz96PTZH
+
+        var url = "https://api.nasa.gov/planetary/apod?api_key=QJCYU3kBLB3hKa6nP0C7sfPRCnPnVDPCZz96PTZH";
+
+        if (date != null) {
+            url += "&date=" + date;
+        } 
+        return await _client.GetFromJsonAsync<NasaResponse>(url);
     }
 
 }

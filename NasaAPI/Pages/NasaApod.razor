@@ -1,0 +1,26 @@
+﻿@using NasaAPI.Models;
+@page "/nasa-apod"
+@using NasaAPI.Clients;
+@inject NasaClient NasaClient;
+@using NasaAPI.Shared.Components;
+
+<PageTitle>
+    Nasa APOD
+</PageTitle>
+
+<Header title="@nasaResponse.title" subTitle="@nasaResponse.date" description="@nasaResponse.explanation" />
+<br>
+<NasaImageSection imgUrl="@nasaResponse.url" hdUrl="@nasaResponse.hdurl" copyright="@nasaResponse.copyright"/>
+
+@* <input placeholder="Add task" @bind="newTodo"/>
+<button @onclick="Add">Add</button> *@
+
+@code {
+    private NasaResponse? nasaResponse = null;
+    protected override async Task OnInitializedAsync() {
+        nasaResponse = await NasaClient.GetNasa(null);
+    }
+
+    // Date => YYYY-MM-DD add new function
+
+}
